@@ -1,0 +1,19 @@
+:root {
+    --primary-moderate-cyan: #4D96A9;
+    --primary-violet: #855FB1;
+    --primary-grey: #87879D;
+    --primary-very-dark-gray: #28283D;
+  
+    --neutral-light-blue: #8FE3F9;
+    --neutral-light-violet: #D9B8FF;
+    --neutral-fast-white: #FAFAFA;
+  
+    --ff-sans: font-family: "Red Hat Display", sans-serif;
+    --fw-light: 500;
+    --fw-normal: 600;
+  }
+
+
+body{
+
+}
