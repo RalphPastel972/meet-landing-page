@@ -17,9 +17,6 @@ This is a solution to the [Name of the challenge](https://www.url-of-the-challen
     - [Challenges](#Challenges)
     - [Help needed](#Help-needed)
     - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![My result](./screenshot.jpg)
 
 ### Links
 
@@ -48,59 +45,35 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### Self-assessment
 
 #### What I learnt
 
-I learnt how to import fonts from Google Fonts
-
-Using gap in the text part made it hard to match the image size while changing display 
+- Mobile first is definitely the way to go
+- Some skills I thought I mastered already... well, I still needed a fair bit of practice to reach the result I wanted.
 
 #### What I am proud of
 
-What are you most proud of and what would you do differently next time?
+Not much. I'm actually disapointed of myself on many aspects. The huge amount of time I needed to realise this design was surprising.
+
+But I had fun juggling with the various layouts (flex, grid, block) to achieve my goals.
 
 #### What I would do differently
 
-What are you most proud of, and what would you do differently next time?
+Nothing, really.
 
 #### Challenges
 
-What challenges did you encounter, and how did you overcome them?
+I struggled with the 4 images: what is the best layout to use and when.
+I struggled having the image in the banner overflowing the container **without** getting scrollbars.
 
 #### Help needed
 
-What specific areas of your project would you like help with?
+n/a
 
 #### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@RalphPastel972](https://www.frontendmentor.io/profile/RalphPastel972)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I will try to use Scss for the first time! I need to practice that.
+For the moment I use online tools. I have nothing installed on my VS Code.
