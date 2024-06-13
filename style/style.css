@@ -75,6 +75,13 @@ header {
   }
 }
 
+.main_message {
+  .banner_left,
+  .banner_right {
+    display: none;
+  }
+}
+
 .call_to_action {
   display: flex;
   flex-direction: column;
@@ -130,22 +137,6 @@ header {
   background-color: var(--neutral-nearly-white);
   position: relative;
 }
-
-/* .illustration_block {
-  width: 80vw;
-  margin: 2em auto;
-  display: flex;
-  place-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-
-  img {
-    min-width: 151px;
-    max-width: 255px;
-    height: auto;
-    border-radius: 10px;
-  }
-} */
 
 .illustration_block {
   width: 80vw;
@@ -223,6 +214,68 @@ header {
         rgba(77, 150, 168, 0.9)
       ),
       url(../media/assets/tablet/image-footer.jpg);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .banner {
+    display: none;
+  }
+
+  .main_message {
+    display: flex;
+    overflow: hidden;
+
+    .banner_left {
+      display: inline;
+      order: -1;
+      position: relative;
+      left: -8em;
+    }
+    .banner_right {
+      display: inline;
+      position: relative;
+      right: -8em;
+    }
+
+    h1 {
+      padding: 0 25px;
+    }
+  }
+
+  .call_to_action {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+  }
+
+  .chapter_one {
+    h2 {
+      padding: 0 33rem;
+    }
+
+    .chapeau {
+      padding: 0 30rem;
+    }
+  }
+
+  .chapter_two {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .chapter_two {
+    background-image: linear-gradient(
+        rgba(77, 150, 168, 0.9),
+        rgba(77, 150, 168, 0.9)
+      ),
+      url(../media/assets/desktop/image-footer.jpg);
     background-size: cover;
   }
 }
