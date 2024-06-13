@@ -218,7 +218,7 @@ header {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   .banner {
     display: none;
   }
