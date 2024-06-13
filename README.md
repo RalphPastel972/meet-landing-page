@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![My result](./screenshot.jpg)
+![My result](./media/assets/screenshot.png)
 
 ### Links
 
-- Github Solution
-- Live Site
+- [Github Solution](https://github.com/RalphPastel972/meet-landing-page)
+- [Live Site](https://ralphpastel972.github.io/meet-landing-page/)
 
 ## My process
 
